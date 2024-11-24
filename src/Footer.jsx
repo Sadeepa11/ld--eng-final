@@ -89,7 +89,8 @@ const Footer = () => {
         <img
           src={Mlogo} // Replace with the actual path if needed
           alt="Modulavers Systems Logo"
-          className="w-10 h-10 rounded"
+          className="rounded"
+          style={{height:'10px', width:'10px'}}
         />
         <span className="font-semibold">Modulavers Systems</span>
       </a>
