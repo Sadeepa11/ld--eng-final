@@ -1,5 +1,6 @@
 import { Phone, MapPin, Mail, MessageCircle, Code } from 'lucide-react';
 import logo from './assets/logos/LDenglogo.png';
+import Mlogo from './assets/logos/M.png';
 
 const Footer = () => {
   return (
@@ -86,7 +87,7 @@ const Footer = () => {
       <span>Developed by</span>
       <a href="https://modulaverssystemscom.vercel.app" className="flex items-center gap-2 hover:text-white transition-colors" aria-label="Modulavers Systems Website">
         <img
-          src={logo} // Replace with the actual path if needed
+          src={Mlogo} // Replace with the actual path if needed
           alt="Modulavers Systems Logo"
           className="w-6 h-6 rounded"
         />
