@@ -58,52 +58,53 @@ const carouselItems = [
         title: "Caffini Pump",
         description: "Versatile Caffini pumps suitable for a range of fluid transfer needs.",
         image: img6,
-        path: '/products/caffini-pump'
+        path: 'https://www.caffinipumps.it/english/default.aspx'
     },
     {
         id: 7,
         title: "Paragon Pump",
         description: "Robust and reliable Paragon pumps built for long-lasting performance.",
         image: img7,
-        path: '/products/paragon-pump'
+        path: 'https://paragonpumpasia.com/'
     },
     {
         id: 8,
         title: "Air Stones",
-        description: "Robust and reliable Paragon pumps built for long-lasting performance.",
+        description: "High-quality air stones for efficient oxygenation in aquatic systems.",
         image: img8,
         path: '/products/air-stones'
     }, {
         id: 9,
         title: "Float Switch",
-        description: "Robust and reliable Paragon pumps built for long-lasting performance.",
+        description: "Durable float switches designed for reliable liquid level control.",
         image: img9,
         path: '/products/float-switch'
     }, {
         id: 10,
         title: "Couplings",
-        description: "Robust and reliable Paragon pumps built for long-lasting performance.",
+        description: "Strong and durable couplings to ensure secure and leak-free connections.",
         image: img10,
         path: '/products/couplings'
     }, {
         id: 11,
         title: "Diffuser",
-        description: "Robust and reliable Paragon pumps built for long-lasting performance.",
+        description: "Efficient diffusers for uniform air distribution in aeration systems.",
         image: img11,
         path: '/products/diffuser'
-    },{
+    }, {
         id: 12,
         title: "Other Accessories",
-        description: "Robust and reliable Paragon pumps built for long-lasting performance.",
+        description: "A wide range of essential accessories to complement your pumping system.",
         image: img12,
         path: '/products/other-accessories'
-    },{
+    }, {
         id: 13,
         title: "Water Meters",
-        description: "Robust and reliable Paragon pumps built for long-lasting performance.",
+        description: "Precision water meters for accurate flow measurement and monitoring.",
         image: img13,
         path: '/products/water-meters'
-    },
+    }
+    
     
     
 ];

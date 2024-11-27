@@ -4,7 +4,7 @@ import { useParams,useNavigate } from 'react-router-dom';
 
 import A_Series_HCP from './assets/imgs/pump_images/A Series - HCP.webp';
 import AF_Series_HCP from './assets/imgs/pump_images/AF Series - HCP.webp';
-import AFC_Series_HCP from './assets/imgs/pump_images/AFC Series - HCP.webp';
+import AFC_Series_HCP from './assets/imgs/pump_images/AFC Series - HCP.jpg';
 import AHI_Series_APEC from './assets/imgs/pump_images/AHI Series - APEC.webp';
 import AHS_Series_APEC from './assets/imgs/pump_images/AHS Series - APEC.png';
 import AL_Series_HCP from './assets/imgs/pump_images/AL Series - HCP.webp';
@@ -56,8 +56,8 @@ import NRV from './assets/imgs/pump_images/NRV.png';
 import PT from './assets/imgs/pump_images/PT.png';
 import AS from './assets/imgs/pump_images/AS.jpg';
 import MV from './assets/imgs/pump_images/MV.jpg';
-import WPD_WI from './assets/imgs/pump_images/WPD_WI .webp';
-import ETK from './assets/imgs/pump_images/ETK.webp';
+import WPD_WI from './assets/imgs/pump_images/WPD_WI .png';
+import ETK from './assets/imgs/pump_images/ETK.png';
 import MTW from './assets/imgs/pump_images/ETW.jpg';
 import MTKD from './assets/imgs/pump_images/MTKD.jpg';
 
@@ -75,6 +75,7 @@ import DYBCAT from './assets/catalogs/DYB.pdf';
 import FSCAT from './assets/catalogs/float-switch.pdf';
 import PTCAT from './assets/catalogs/pressure_tank.pdf';
 import SPCAT from './assets/catalogs/self_priming.pdf';
+import KJCAT from './assets/catalogs/KJ_Series.pdf';
 
 
 
@@ -125,7 +126,7 @@ const ProductDetail = () => {
           name: 'Pond',
           models: [
             { name: 'PW Series Pond (Brand: WALRUS)', img: PW_POND_Catagory_WALRUS },
-            { name: 'POND Series (Brand: APEC)', img: POND_Series_HCP_Pond_Catagory },
+            { name: 'POND Series (Brand: HCP)', img: POND_Series_HCP_Pond_Catagory },
           ],
         },
         {
@@ -150,6 +151,7 @@ const ProductDetail = () => {
             { name: 'KJ Series (Brand: APEC)', img: KJ_Series_APEC },
             { name: 'CTF Series (Brand: NANTONG)', img: CTF_Series_SINOMEC },
           ],
+          cat:KJCAT
         },
       ],
     },

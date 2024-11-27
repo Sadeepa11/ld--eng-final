@@ -24,12 +24,12 @@ const Footer = () => {
             <div className="text-gray-400">
               <a href="tel:+113050600" className="flex items-center gap-2 hover:text-white transition-colors" aria-label="Call LD Engineering at 0113050600">
                 <Phone className="h-5 w-5" />
-                <span>0113050600</span>
+                <span>0773999202</span>
               </a>
-              <a href="tel:+112504389" className="flex items-center gap-2 hover:text-white transition-colors" aria-label="Call LD Engineering at 0112504389">
+              {/* <a href="tel:+112504389" className="flex items-center gap-2 hover:text-white transition-colors" aria-label="Call LD Engineering at 0112504389">
                 <Phone className="h-5 w-5" />
                 <span>0112504389</span>
-              </a>
+              </a> */}
             </div>
           </div>
 
