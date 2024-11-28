@@ -57,6 +57,7 @@ import WPD_WI from './assets/imgs/pump_images/WPD_WI .png';
 import ETK from './assets/imgs/pump_images/ETK.png';
 import MTW from './assets/imgs/pump_images/ETW.jpg';
 import MTKD from './assets/imgs/pump_images/MTKD.jpg';
+import HKSCAT from './assets/catalogs/HK_Series.pdf';
 
 const SingleProductPage = () => {
   const { modelName } = useParams();
@@ -282,8 +283,8 @@ const SingleProductPage = () => {
     },
     'HK (Brand: APEC)': {
       name: 'HK (Brand: APEC)',
-      image: HK_Air_Pump_APEC
-      // path:''
+      image: HK_Air_Pump_APEC,
+      path:HKSCAT
     },
    'Type A,B,C,D & Nano': {
       name:'Type A,B,C,D & Nano', 

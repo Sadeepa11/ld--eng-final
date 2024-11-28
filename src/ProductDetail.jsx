@@ -76,6 +76,7 @@ import FSCAT from './assets/catalogs/float-switch.pdf';
 import PTCAT from './assets/catalogs/pressure_tank.pdf';
 import SPCAT from './assets/catalogs/self_priming.pdf';
 import KJCAT from './assets/catalogs/KJ_Series.pdf';
+import HKSCAT from './assets/catalogs/HK_Series.pdf';
 
 
 
@@ -250,6 +251,7 @@ const ProductDetail = () => {
         models: [
           { name: 'HK (Brand: APEC)', img: HK_Air_Pump_APEC },
         ],
+        cat:HKSCAT
       },
     ],
   },

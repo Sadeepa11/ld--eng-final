@@ -23,9 +23,9 @@ const CompanyLogosViewer = () => {
     { id: 4, name: 'PARAGON Pump', logo: paragonLogo },
     { id: 5, name: 'CAFFINI Pump', logo: caffiniLogo },
     { id: 6, name: 'SINOMEC Pump', logo: nantongLogo },
-    { id: 7, name: 'Evak', logo: evakLogo },
+    { id: 7, name: 'EVAK', logo: evakLogo },
     { id: 8, name: 'SJE ROMBUS', logo: sjeLogo },
-    { id: 9, name: 'ZANNER', logo: zennerLogo }
+    { id: 9, name: 'ZENNER', logo: zennerLogo }
   ];
 
   useEffect(() => {

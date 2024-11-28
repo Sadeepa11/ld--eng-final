@@ -28,27 +28,27 @@ const carouselItems = [
     {
         id: 2,
         title: "Submersible Pumps",
-        description: "High-performance submersible pumps for efficient water transfer and drainage.",
+        description: "High-performance submersible pumps for efficient water discharge and drainage.",
         image: img2,
         path: '/products/submersible-pumps'
     },
     {
         id: 3,
-        title: "Centrifugal Pump",
-        description: "Reliable centrifugal pumps designed for diverse fluid handling applications.",
+        title: "Centrifugal Pumps",
+        description: "Reliable centrifugal pumps designed for various fluid handling applications.",
         image: img3,
         path: '/products/centrifugal-pump'
     },
     {
         id: 4,
-        title: "Fuel Pump",
+        title: "Fuel Pumps",
         description: "Efficient and durable fuel pumps for various industrial applications.",
         image: img4,
         path: '/products/fuel-pump'
     },
     {
         id: 5,
-        title: "Aerators & Air Pump",
+        title: "Aerators & Air Pumps",
         description: "High-quality aerators and air pumps to enhance water quality and oxygen levels.",
         image: img5,
         path: '/products/aerators-air-pump'
@@ -70,7 +70,7 @@ const carouselItems = [
     {
         id: 8,
         title: "Air Stones",
-        description: "High-quality air stones for efficient oxygenation in aquatic systems.",
+        description: "High-quality air stones to supply oxygen efficiently in aquatic systems.",
         image: img8,
         path: '/products/air-stones'
     }, {
@@ -94,7 +94,7 @@ const carouselItems = [
     }, {
         id: 12,
         title: "Other Accessories",
-        description: "A wide range of essential accessories to complement your pumping system.",
+        description: "A wide range of essential accessories for your pump system.",
         image: img12,
         path: '/products/other-accessories'
     }, {

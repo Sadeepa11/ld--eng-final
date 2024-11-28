@@ -42,7 +42,7 @@ const AboutUs = () => {
             style={{ transitionDelay: '400ms' }}
           >
             <p className="text-gray-300 leading-relaxed">
-              LD Engineering (Pvt) ltd, is the leading supplier of various type of pumps, air blowers, measuring equipment's, water meters, level controllers and accessories in Sri Lanka since 2008.
+              LD Engineering (Pvt) LTD, is the leading supplier of various type of pumps, air blowers, measuring equipment's, water meters, level controllers and accessories in Sri Lanka since 2008.
             </p>
           </div>
 
@@ -56,7 +56,7 @@ const AboutUs = () => {
           >
             <h3 className="text-xl font-semibold text-blue-400 mb-4">Our Value</h3>
             <p className="text-gray-300 leading-relaxed">
-              Our value is to satisfy our customers with a range of comprehensive products with superior quality and technology and make our user's life simply more pleasant.
+              Our value is to satisfy our customer requirements with a range of comprehensive products in superior quality and technology and make our users' life simply more pleasant.
             </p>
           </div>
 
@@ -70,7 +70,7 @@ const AboutUs = () => {
           >
             <h3 className="text-xl font-semibold text-blue-400 mb-4">Product Range</h3>
             <p className="text-gray-300 leading-relaxed">
-              We have wide range of pumps to meet our customers need in major application.
+              We have wide range of pumps to meet our customer needs in major application.
             </p>
           </div>
 
@@ -84,7 +84,7 @@ const AboutUs = () => {
           >
             <h3 className="text-xl font-semibold text-blue-400 mb-4">Our Commitment</h3>
             <p className="text-gray-300 leading-relaxed">
-              LD Engineering has intensified our spirit and attitude in our quest for perpetual betterment to persist in aggressively adhering to the policy of "Customer First, Quality First, Service First" to ensure customers with quality after-sales services.
+            LD Engineering has intensified our spirit and attitude in our quest for perpetual betterment to persist in aggressively adhering to the policy of "Customer First, Quality First, Service First" to ensure customers with quality after-sales services. 
             </p>
           </div>
 
@@ -98,7 +98,7 @@ const AboutUs = () => {
           >
             <h3 className="text-xl font-semibold text-blue-400 mb-4">Our Vision</h3>
             <p className="text-gray-300 leading-relaxed">
-              We expect to give our customers with high quality products and perfect service in establishing excellent cornerstones for our sustainable business operation.
+            We expect to give our customers high quality products and perfect service whilst establishing excellent cornerstones for our sustainable business operation.
             </p>
           </div>
         </div>
