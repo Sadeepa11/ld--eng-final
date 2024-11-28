@@ -117,7 +117,7 @@ const Carousel = () => {
     useEffect(() => {
         const timer = setInterval(() => {
             handleNext();
-        }, 5000); // Change slide every 5 seconds
+        }, 2000); // Change slide every 5 seconds
 
         return () => clearInterval(timer);
     }, [currentSlide]);
@@ -140,7 +140,7 @@ const Carousel = () => {
         if (isAnimating || index === currentSlide) return;
         setIsAnimating(true);
         setCurrentSlide(index);
-        setTimeout(() => setIsAnimating(false), 200);
+        setTimeout(() => setIsAnimating(false), 500);
     };
 
     return (
@@ -149,7 +149,7 @@ const Carousel = () => {
             <div className="relative h-[70vh] w-full bg-gray-900" style={{marginTop:'65px'}}>
                 {/* Slides */}
                 <div 
-                    className="absolute w-full h-full transition-transform duration-200 ease-in-out"
+                    className="absolute w-full h-full transition-transform duration-500 ease-in-out"
                     style={{ transform: `translateX(-${currentSlide * 100}%)` }}
                 >
                     {carouselItems.map((item, index) => (
