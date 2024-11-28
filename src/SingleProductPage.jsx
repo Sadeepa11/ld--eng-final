@@ -100,6 +100,11 @@ const SingleProductPage = () => {
       image: AHS_Series_APEC,
       path:'https://www.apecpump.com/en/products-content/id/52/'
     },
+    'BHS (Brand: APEC)': {
+      name: 'BHS Series (Brand: APEC)',
+      image: BHI_BHS_Series_APEC,
+      path:'https://www.apecpump.com/en/products-content/id/77/'
+    },
     'AL Series (Brand: HCP)': {
       name: 'AL Series (Brand: HCP)',
       image: AL_Series_HCP,
