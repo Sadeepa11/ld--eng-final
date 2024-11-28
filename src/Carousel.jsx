@@ -117,7 +117,7 @@ const Carousel = () => {
     useEffect(() => {
         const timer = setInterval(() => {
             handleNext();
-        }, 2000); // Change slide every 5 seconds
+        }, 2000); // Change slide every 2 seconds
 
         return () => clearInterval(timer);
     }, [currentSlide]);
