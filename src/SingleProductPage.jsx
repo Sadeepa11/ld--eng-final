@@ -186,7 +186,7 @@ const SingleProductPage = () => {
       image:PW_POND_Catagory_WALRUS,
       path:'https://walruspump20240625.h.webweb.today/en/product/detail-19'
     },
-    'POND Series (Brand: HCP': {
+    'POND Series (Brand: HCP)': {
       name: 'POND Series (Brand: HCP)',
       image: POND_Series_HCP_Pond_Catagory,
       path:'https://cs.hcppump.com/pond-series.html'
