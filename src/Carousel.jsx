@@ -28,7 +28,7 @@ const carouselItems = [
     {
         id: 2,
         title: "Submersible Pumps",
-        description: "High-performance submersible pumps for efficient water discharge and drainage.",
+        description: "High-performance submersible pumps for efficient water discharge and drainage applications.",
         image: img2,
         path: '/products/submersible-pumps'
     },

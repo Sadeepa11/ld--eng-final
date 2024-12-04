@@ -17,7 +17,7 @@ const Footer = () => {
                 className="w-20 h-auto rounded-lg"
               />
               <div>
-                <h3 className="text-xl font-bold">LD Engineering</h3>
+                <h3 className="text-xl font-bold">LD ENGINEERING PVT LTD</h3>
                 <p className="text-gray-400 text-sm">Your partner for pumping solutions</p>
               </div>
             </div>

@@ -42,7 +42,7 @@ const AboutUs = () => {
             style={{ transitionDelay: '400ms' }}
           >
             <p className="text-gray-300 leading-relaxed">
-              LD Engineering (Pvt) LTD, is the leading supplier of various type of pumps, air blowers, measuring equipment's, water meters, level controllers and accessories in Sri Lanka since 2008.
+              LD Engineering (Pvt) LTD, is the leading supplier of various types of pumps, air blowers, measuring equipment, water meters, level controllers and accessories in Sri Lanka since 2008.
             </p>
           </div>
 
@@ -70,7 +70,7 @@ const AboutUs = () => {
           >
             <h3 className="text-xl font-semibold text-blue-400 mb-4">Product Range</h3>
             <p className="text-gray-300 leading-relaxed">
-              We have wide range of pumps to meet our customer needs in major application.
+              We have wide range of pumps to meet our customer needs in major applications.
             </p>
           </div>
 
