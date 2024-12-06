@@ -1,4 +1,4 @@
-import  { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 import apecLogo from './assets/logos/apecLogo.png';
 import hcpLogo from './assets/logos/hcpLogo.png';
@@ -10,21 +10,18 @@ import sjeLogo from './assets/logos/sjeLogo.png';
 import evakLogo from './assets/logos/evakLogo.jpg';
 import zennerLogo from './assets/logos/zennerLogo.svg';
 
-
-
 const CompanyLogosViewer = () => {
   const [isVisible, setIsVisible] = useState(false);
 
-  // Sample company data - in real usage, this would be passed as props
   const companies = [
     { id: 1, name: 'APEC Pump Enterprise Corp', logo: apecLogo },
     { id: 2, name: 'HCP Pump Manufacturer Co.,Ltd', logo: hcpLogo },
     { id: 3, name: 'WALRUS Pump Co.,Ltd', logo: walrusLogo },
-    { id: 4, name: 'PARAGON Pump', logo: paragonLogo },
+    { id: 4, name: 'PARAGON PUMP ASIA PVT LTD', logo: paragonLogo },
     { id: 5, name: 'CAFFINI Pump', logo: caffiniLogo },
-    { id: 6, name: 'SINOMEC Pump', logo: nantongLogo },
+    { id: 6, name: 'SINOMEC Pump<br>PHE ENGINEERING CO LTD', logo: nantongLogo },
     { id: 7, name: 'EVAK', logo: evakLogo },
-    { id: 8, name: 'SJE ROMBUS', logo: sjeLogo },
+    { id: 8, name: 'SJE RHOMBUS', logo: sjeLogo },
     { id: 9, name: 'ZENNER', logo: zennerLogo }
   ];
 
@@ -33,17 +30,19 @@ const CompanyLogosViewer = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-blue-900 p-8" >
+    <div className="min-h-screen bg-blue-900 p-8">
       <div className="max-w-6xl mx-auto mt-10 text-center">
-      <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Our Partners
-          </h1>
-          <div className={`
+        <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          Our Partners
+        </h1>
+        <div
+          className={`
             w-24 h-1 bg-blue-500 mx-auto transition-all duration-1000 delay-300
             ${isVisible ? 'opacity-100 scale-x-100' : 'opacity-0 scale-x-0'}
-          `}></div>
-        
-        <div className=" mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          `}
+        ></div>
+
+        <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {companies.map((company, index) => (
             <div
               key={company.id}
@@ -57,20 +56,20 @@ const CompanyLogosViewer = () => {
                 transitionDelay: `${index * 10}ms`
               }}
             >
-              <div className="p-6  items-center justify-center align-middle">
+              <div className="p-6 items-center justify-center align-middle">
                 <div className="flex items-center justify-center mb-4">
                   <div className="w-100 h-auto relative">
                     <img
                       src={company.logo}
                       alt={`${company.name} logo`}
-                      className=" object-cover"
+                      className="object-cover"
                     />
                   </div>
                 </div>
-                <h3 className="text-xl font-semibold text-center text-gray-800">
-                  {company.name}
-                </h3>
-        
+                <h3
+                  className="text-xl font-semibold text-center text-gray-800"
+                  dangerouslySetInnerHTML={{ __html: company.name }}
+                ></h3>
               </div>
             </div>
           ))}
