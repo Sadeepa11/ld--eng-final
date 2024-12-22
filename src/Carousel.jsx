@@ -146,10 +146,10 @@ const Carousel = () => {
     return (
         <div className="relative w-[100%]  mx-auto overflow-hidden  shadow-lg">
             {/* Main Carousel */}
-            <div className="relative h-[70vh] w-full bg-gray-900" style={{marginTop:'65px'}}>
+            <div className="relative h-[70vh] w-[90%] bg-gray-900" style={{marginTop:'65px'}}>
                 {/* Slides */}
                 <div 
-                    className="absolute w-auto h-full transition-transform duration-500 ease-in-out"
+                    className="absolute w-full h-full transition-transform duration-500 ease-in-out"
                     style={{ transform: `translateX(-${currentSlide * 100}%)` }}
                 >
                     {carouselItems.map((item, index) => (
