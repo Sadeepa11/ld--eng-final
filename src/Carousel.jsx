@@ -155,7 +155,7 @@ const Carousel = () => {
                     {carouselItems.map((item, index) => (
                         <div
                             key={item.id}
-                            className="absolute top-0 left-0 w-full h-full "
+                            className="absolute top-0 left-0 w-[90%] h-full "
                             style={{ transform: `translateX(${index * 100}%)` }}
                         >
                             {/* Background Image */}
