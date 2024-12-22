@@ -163,7 +163,7 @@ const Carousel = () => {
                                 src={item.image}
                                 alt={item.title}
                                 className="opacity-70"
-                                style={{height:'100%',width:'100vw'}}
+                                style={{height:'100%',width:'90vw'}}
                             />
                             
                             {/* Content */}
