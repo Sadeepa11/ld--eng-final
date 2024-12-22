@@ -149,13 +149,13 @@ const Carousel = () => {
             <div className="relative h-[70vh] w-full bg-gray-900" style={{marginTop:'65px'}}>
                 {/* Slides */}
                 <div 
-                    className="absolute w-full h-full transition-transform duration-500 ease-in-out"
+                    className="absolute w-auto h-full transition-transform duration-500 ease-in-out"
                     style={{ transform: `translateX(-${currentSlide * 100}%)` }}
                 >
                     {carouselItems.map((item, index) => (
                         <div
                             key={item.id}
-                            className="absolute top-0 left-0 w-[90%] h-full "
+                            className="absolute top-0 left-0 w-full h-full "
                             style={{ transform: `translateX(${index * 100}%)` }}
                         >
                             {/* Background Image */}
